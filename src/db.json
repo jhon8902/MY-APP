@@ -1,0 +1,171 @@
+[
+    {
+      "titulo": "Porsche 911",
+      "categoria": "AUTOMOVILES",
+      "imagen": "https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2017/11/Saffron-Yellow-Metallic-Porsche-911-Turbo-1.jpg",
+      "video": "https://www.youtube.com/embed/eInfmopPg4g?si=K_0yxLHVSwYF5s7u",
+      "likes": 0
+    },
+    {
+      "titulo": "Jaguar 5.0 V8",
+      "categoria": "AUTOMOVILES",
+      "imagen": "https://th.bing.com/th/id/OIP._c0bErTvcniGRRTGWTxQFgHaEK?w=325&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "video": "https://www.youtube.com/embed/GmDONmrGkcU?si=Ci9vpR99T9u3pFne",
+      "likes": 0
+    },
+    {
+      "titulo": "Mustang GT",
+      "categoria": "AUTOMOVILES",
+      "imagen": "https://th.bing.com/th/id/OIP.7OJWwZ40-kYkIzk_hJuyXQHaE8?pid=ImgDet&w=178&h=118&c=7&dpr=1,5",
+      "video": "https://www.youtube.com/embed/_EFj-Ogg7UA?si=svk95CPxPqMdB2zo",
+      "likes": 0
+    },
+    {
+      "titulo": "Bugatti Chiron sport",
+      "categoria": "AUTOMOVILES",
+      "imagen": "https://th.bing.com/th/id/OIP.nn3PnsGspT_FUq-h-TEU6AHaD8?pid=ImgDet&w=178&h=95&c=7&dpr=1,5",
+      "video": "https://www.youtube.com/embed/PkkV1vLHUvQ?si=gAWduTf_TSbT6v-k",
+      "likes": 0
+    },
+    {
+      "titulo": "Peugeot 2008",
+      "categoria": "CAMIONETAS",
+      "imagen": "https://www.autoguru.at/wp-content/gallery/peugeot_2008_gtline_puretech130_test_0520/SGRU4847.jpg",
+      "video": "https://www.youtube.com/embed/iu9vUr8FWKU?si=aJUoAJ-mIfEvHvki",
+      "likes": 0
+    },
+    {
+      "titulo": "Audi Q8",
+      "categoria": "CAMIONETAS",
+      "imagen": "https://parkers-images.bauersecure.com/pagefiles/317890/cut-out/570x380/audi_e_tron_01.jpg",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Mersedes GLE 63",
+      "categoria": "CAMIONETAS",
+      "imagen": "https://th.bing.com/th/id/OIP.QMy-DfztjHZnzGBU7Y4BSwAAAA?pid=ImgDet&w=178&h=99&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "BMW X5",
+      "categoria": "CAMIONETAS",
+      "imagen": "https://th.bing.com/th/id/OIP.ETs5q4XO09zLFY9-gj-magHaEV?rs=1&pid=ImgDetMain",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Hyundai LE",
+      "categoria": "PICK-UP",
+      "imagen": "https://i1.wp.com/www.generation4x4mag.fr/wp-content/uploads/2020/01/hyundai-ute-render.jpg?fit=1023%2C682&ssl=1",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "kia Tasman",
+      "categoria": "PICK-UP",
+      "imagen": "https://th.bing.com/th/id/OIP.pIPJEGjge74kX7QrBe_aSwHaEK?w=293&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "RAM 2500",
+      "categoria": "PICK-UP",
+      "imagen": "https://th.bing.com/th/id/OIP.VizveQGZ8Ekj4zM9pyOq_wAAAA?w=268&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "GMC Sierra",
+      "categoria": "PICK-UP",
+      "imagen": "https://th.bing.com/th/id/R.c51def2b60845ae994e3dbfced26cdbd?rik=5s8KnD%2bBHtLfzQ&pid=ImgRaw&r=0",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Kia Niro",
+      "categoria": "HIBRIDOS",
+      "imagen": "https://th.bing.com/th/id/OIP.UItY3htSNvsRwdBTaWJzVgHaEt?pid=ImgDet&w=178&h=112&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Toyota RAV4",
+      "categoria": "HIBRIDOS",
+      "imagen": "https://www.mendozapost.com/files/image/213/213726/5ce754c29f397_1420_!.jpg?s=58f466e604d0dc322c6ef416788b0edd&d=1558703592",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Mitsubishi Outlander",
+      "categoria": "HIBRIDOS",
+      "imagen": "https://th.bing.com/th/id/OIP.QN6UMsHixZtwOR9-nc1_uQHaE7?pid=ImgDet&w=178&h=118&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Subaru Forester",
+      "categoria": "HIBRIDOS",
+      "imagen": "https://wroom.ru/i/news/7509img1.jpg",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Suzuki Repson",
+      "categoria": "MOTOCICLETAS",
+      "imagen": "https://cdp.azureedge.net/products/USA/SU/2024/MC/SUPERSPORT/GSX-R750/50/PEARL_BRILLIANT_WHITE_-_METALLIC_TRITON_BLUE/2000000002.jpg",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Honda CRV",
+      "categoria": "MOTOCICLETAS",
+      "imagen": "https://th.bing.com/th/id/OIP.IRLgEZV3bJh9JBFUbPeZNgHaFj?pid=ImgDet&w=178&h=133&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "Yamaha YZF-R1",
+      "categoria": "MOTOCICLETAS",
+      "imagen": "https://th.bing.com/th/id/OIP.kh2bgIfh-KHAW8uwRQxmgQHaFj?pid=ImgDet&w=178&h=133&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "BMW S 1000 RR",
+      "categoria": "MOTOCICLETAS",
+      "imagen": "https://th.bing.com/th/id/OIP.crGQ6RatcfARI-Ka6mmm5wHaFi?pid=ImgDet&w=178&h=133&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "En prueba Ford",
+      "categoria": "PRUEBA DE MANEJO",
+      "imagen": "https://autorecent.com/wp-content/uploads/2023/03/Ford-Ranger-Wildtrak-X-12s-wfupdate.jpg",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "En prueba Subaru",
+      "categoria": "PRUEBA DE MANEJO",
+      "imagen": "https://th.bing.com/th/id/OIP.6Ns4h4-Iqfe0O4WC2bDkIgHaEK?pid=ImgDet&w=178&h=100&c=7&dpr=1,5",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "En prueba Ram",
+      "categoria": "PRUEBA DE MANEJO",
+      "imagen": "https://th.bing.com/th/id/OIF.UPQq7ciR5FpasATb4jLalw?w=277&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    },
+    {
+      "titulo": "En prueba porsche",
+      "categoria": "PRUEBA DE MANEJO",
+      "imagen": "https://th.bing.com/th/id/OIP.5seg912haVYUAD-6D9aO4AHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "video": "ruta/del/video.mp4",
+      "likes": 0
+    }
+    
+  ]
