@@ -80,7 +80,7 @@ const SeccionInfo = () => {
     <SeccionInfoEstilizada>
       <div className="info">
         <Link to="/tu-auto">
-          <button className="boton">TU AUTO</button>
+          <button className="boton">Tu auto</button>
         </Link>
         <div className='texto'>
           <p className='texto'>Te invitamos a comprar tu auto con nosotros. ¡No pierdas esta oportunidad de tener el auto de tus sueños!</p>
@@ -88,7 +88,7 @@ const SeccionInfo = () => {
       </div>
       <div className="info">
         <Link to="/cotiza-tu-auto">
-          <button className="boton">COTIZA TU AUTO</button>
+          <button className="boton">Cotiza tu auto</button>
         </Link>
         <div className='texto'>
           <p className='texto'>Descubre los beneficios y las facilidades que ofrecemos al cotizar tu auto con nosotros. ¡Descúbrelo dando click en cotiza!</p>

@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
+import 'normalize.css';
 
 const GlobalStyles= createGlobalStyle`
+  
 
 html {
     line-height: 1.15;
@@ -10,6 +12,7 @@ html {
   
   body {
     margin: 0;
+   
   }
   
   main {

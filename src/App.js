@@ -14,6 +14,7 @@ import GlobalStyles from './components/GlobalStyles';
 import Footer from './components/Footer';
 import data from './db.json';
 
+
 const FondoGradiente = styled.div`
   background: linear-gradient(175deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
   width: 100%;
@@ -51,6 +52,7 @@ const App = () => {
   return (
     <Router>
       <FondoGradiente>
+      <GlobalStyles /> {/* Aplica los estilos globales aquí */}
         <Cabecera />
         <Routes>
         <Route path="/" element={<Navigate to="/videos" />} /> 

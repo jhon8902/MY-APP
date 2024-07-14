@@ -1,35 +1,35 @@
 [
     {
       "titulo": "Porsche 911",
-      "categoria": "AUTOMOVILES",
+      "categoria": "Automoviles",
       "imagen": "https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2017/11/Saffron-Yellow-Metallic-Porsche-911-Turbo-1.jpg",
       "video": "https://www.youtube.com/embed/eInfmopPg4g?si=K_0yxLHVSwYF5s7u",
       "likes": 0
     },
     {
       "titulo": "Jaguar 5.0 V8",
-      "categoria": "AUTOMOVILES",
+      "categoria": "Automoviles",
       "imagen": "https://th.bing.com/th/id/OIP._c0bErTvcniGRRTGWTxQFgHaEK?w=325&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7",
       "video": "https://www.youtube.com/embed/GmDONmrGkcU?si=Ci9vpR99T9u3pFne",
       "likes": 0
     },
     {
       "titulo": "Mustang GT",
-      "categoria": "AUTOMOVILES",
+      "categoria": "Automoviles",
       "imagen": "https://th.bing.com/th/id/OIP.7OJWwZ40-kYkIzk_hJuyXQHaE8?pid=ImgDet&w=178&h=118&c=7&dpr=1,5",
       "video": "https://www.youtube.com/embed/_EFj-Ogg7UA?si=svk95CPxPqMdB2zo",
       "likes": 0
     },
     {
       "titulo": "Bugatti Chiron sport",
-      "categoria": "AUTOMOVILES",
+      "categoria": "Automoviles",
       "imagen": "https://th.bing.com/th/id/OIP.nn3PnsGspT_FUq-h-TEU6AHaD8?pid=ImgDet&w=178&h=95&c=7&dpr=1,5",
       "video": "https://www.youtube.com/embed/PkkV1vLHUvQ?si=gAWduTf_TSbT6v-k",
       "likes": 0
     },
     {
       "titulo": "Peugeot 2008",
-      "categoria": "CAMIONETAS",
+      "categoria": "Camionetas",
       "imagen": "https://www.autoguru.at/wp-content/gallery/peugeot_2008_gtline_puretech130_test_0520/SGRU4847.jpg",
       "video": "https://www.youtube.com/embed/iu9vUr8FWKU?si=aJUoAJ-mIfEvHvki",
       "likes": 0

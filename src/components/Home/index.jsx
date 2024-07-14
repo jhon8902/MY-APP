@@ -150,7 +150,7 @@ const Home = ({ videos, setVideos, toggleLike }) => {
   return (
     <div>
       <SeccionInfo />
-      <StyledH1>CATEGORIAS</StyledH1>
+      <StyledH1>Categorias</StyledH1>
       {Object.keys(groupedVideos).map((categoria, catIndex) => (
         <CategoryContainer key={catIndex}>
           <h2>{categoria}</h2>
