@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Cabecera from './components/Cabecera';
 import SeccionInfo from './components/SeccionInfo';
 import Home from './components/Home';
 import NuevoVideo from './components/NuevoVideo';
-import Video from './components/Video'; // Nuevo componente
+import Video from './components/Video';
 import TuAuto from './components/TuAuto';
 import CotizaTuAuto from './components/CotizaTuAuto';
 import EditarVideo from './components/EditarVideo';
@@ -14,26 +14,20 @@ import GlobalStyles from './components/GlobalStyles';
 import Footer from './components/Footer';
 import data from './db.json';
 
-
-
-
 const FondoGradiente = styled.div`
   background: linear-gradient(175deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
   width: 100%;
   min-height: 100vh;
 `;
 
-
 const App = () => {
   const [videos, setVideos] = useState([]);
-    
   
 
   useEffect(() => {
     setVideos(data); // Carga los datos del archivo JSON
   }, []);
- 
-  /*addVideo y updateVideo funciones que permiten la modificación del estado "videos".*/
+
   const addVideo = (video) => {
     setVideos([...videos, video]);
   };
@@ -54,25 +48,22 @@ const App = () => {
     setVideos(updatedVideos);
   };
 
- 
-  
-
   return (
     <Router>
       <FondoGradiente>
         <Cabecera />
         <Routes>
-          <Route path="/" element={<Home videos={videos} addVideo={addVideo} />} />
+        <Route path="/" element={<Navigate to="/videos" />} /> 
+          <Route path="/videos" element={<Home videos={videos} setVideos={setVideos} toggleLike={toggleLike} />} /> {/* Pasa setVideos como prop */}
+          {/* ... (resto de las rutas) */}
           <Route path="/tu-auto" element={<TuAuto />} />
           <Route path="/cotiza-tu-auto" element={<CotizaTuAuto />} />
           <Route path="/nuevo-video" element={<NuevoVideo addVideo={addVideo} />} />
-          <Route path="/video/:id" element={<Video videos={videos} />} /> {/* Nueva ruta */}
-          <Route path="/editar-video/:id" element={<EditarVideo videos={videos} updateVideo={updateVideo} />} /> {/* Ruta para editar video */}
-         
+          <Route path="/video/:id" element={<Video videos={videos} />} />
+          <Route path="/editar-video/:id" element={<EditarVideo videos={videos} updateVideo={updateVideo} />} />
+          <Route path="/seccion-info" element={<SeccionInfo />} /> {/* Ruta para SeccionInfo */}
         </Routes>
-        
         <GlobalStyles />
-        
       </FondoGradiente>
       <Footer />
     </Router>

@@ -22,6 +22,11 @@ const VideoCard = styled.div`
   align-items: center;
   transition: transform 0.2s ease-in-out;
 
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    
+  }
+
   img {
     width: 100%;
     height: 200px;
@@ -92,6 +97,11 @@ const VideoCard = styled.div`
     width: 24px;
     height: 24px;
   }
+
+  /* Media query para dispositivos pequeños */
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Ancho completo en dispositivos pequeños */
+  }
 `;
 
 const CategoryContainer = styled.div`
@@ -111,7 +121,7 @@ const CategoryContainer = styled.div`
   }
 `;
 
-const Home = ({ videos, addVideo, toggleLike }) => {
+const Home = ({ videos, setVideos, toggleLike }) => {
   const navigate = useNavigate();
 
   const handleImageClick = (index) => {
@@ -119,9 +129,11 @@ const Home = ({ videos, addVideo, toggleLike }) => {
   };
 
   const handleDelete = (index) => {
-    const updatedVideos = videos.filter((_, i) => i !== index);
-    addVideo(updatedVideos);
+    const updatedVideos = [...videos]; // Crea una copia del array
+    updatedVideos.splice(index, 1); // Elimina el video del array
+    setVideos(updatedVideos); // Actualiza el estado en App.js
   };
+
 
   const handleEdit = (index) => {
     navigate(`/editar-video/${index}`);

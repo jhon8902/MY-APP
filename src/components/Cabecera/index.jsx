@@ -11,6 +11,8 @@ const Header = styled.header`
   align-items: center;
   padding: 10px 20px;
   background-color: #04244F;
+
+  
 `;
 
 const Logo = styled.img`

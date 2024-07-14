@@ -25,6 +25,11 @@ const SeccionInfoEstilizada = styled.section`
     padding: 20px;
     border-radius: 10px;
     width: 400px;
+
+    /* Media query para dispositivos pequeños */
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Ancho completo en dispositivos pequeños */
+  }
   }
 
   .boton {
@@ -60,12 +65,14 @@ const SeccionInfoEstilizada = styled.section`
     padding: 10px;
     border-radius: 10px;
     align-items: center;
+    
   }
 
   .Redes-Sociales img {
     width: 35px; /* Ajusta el tamaño de las imágenes */
     height: 35px; /* Ajusta el tamaño de las imágenes */
   }
+
 `;
 
 const SeccionInfo = () => {
@@ -97,3 +104,5 @@ const SeccionInfo = () => {
 };
 
 export default SeccionInfo;
+
+

@@ -8,6 +8,7 @@ const VideoContainer = styled.div`
   align-items: center;
   padding: 20px;
   color: white;
+  
 `;
 
 const VideoPlayer = styled.iframe`
@@ -15,6 +16,12 @@ const VideoPlayer = styled.iframe`
   height: 315px;
   border: none;
   margin-bottom: 20px;
+
+  /* Media query para dispositivos pequeños */
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Ancho completo en dispositivos pequeños */
+    
+  }
 `;
 
 const Video = ({ videos }) => {
