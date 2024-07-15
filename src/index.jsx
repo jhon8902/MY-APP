@@ -7,16 +7,19 @@ const VideoContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  
 `;
 
 const VideoTitle = styled.h2`
   color: white;
+ 
 `;
 
 const VideoPlayer = styled.video`
   width: 80%;
   max-width: 800px;
   margin-top: 20px;
+
 `;
 
 const VideoDetail = ({ videos }) => {

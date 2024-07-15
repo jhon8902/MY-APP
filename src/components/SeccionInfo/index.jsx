@@ -6,7 +6,7 @@ const SeccionInfoEstilizada = styled.section`
   background-image: url('img/fondoflix.jpg');
   background-size: cover;
   background-position: center;
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,7 +23,7 @@ const SeccionInfoEstilizada = styled.section`
     align-items: flex-start;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     width: 400px;
 
     /* Media query para dispositivos pequeños */

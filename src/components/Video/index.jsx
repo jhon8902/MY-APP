@@ -8,12 +8,13 @@ const VideoContainer = styled.div`
   align-items: center;
   padding: 20px;
   color: white;
+  font-size: 18px;
   
 `;
 
 const VideoPlayer = styled.iframe`
-  width: 560px;
-  height: 315px;
+  width: 700px;
+  height: 400px;
   border: none;
   margin-bottom: 20px;
 

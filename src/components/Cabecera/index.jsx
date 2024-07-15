@@ -22,10 +22,10 @@ const Logo = styled.img`
 
 const Nav = styled.nav`
   a {
+    font-size: 18px;
     color: white;
     margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
@@ -45,8 +45,8 @@ const Cabecera = () => (
       <Logo src={logo} alt="Alura Flix Logo" />
     </Link>
     <Nav>
-      <Link to="/" style={{ textDecoration: 'none' }}>HOME</Link>
-      <Link to="/nuevo-video" style={{ textDecoration: 'none' }}>NUEVO VIDEO</Link>
+      <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
+      <Link to="/nuevo-video" style={{ textDecoration: 'none' }}>Nuevo video</Link>
     </Nav>
   </Header>
 );

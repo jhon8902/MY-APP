@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaEdit, FaTrash, FaThumbsUp } from 'react-icons/fa';
 import SeccionInfo from '../SeccionInfo';
 
+/*contenido de los videos titulos y imagenes*/
 const StyledH1 = styled.h1`
   color: white;
   font-size: 2em;
@@ -25,11 +26,12 @@ const VideoCard = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 100%;
     
+    
   }
 
   img {
     width: 100%;
-    height: 200px;
+    height: 200%;
     object-fit: cover;
     border-radius: 8px;
     cursor: pointer;
@@ -44,7 +46,7 @@ const VideoCard = styled.div`
     margin: 10px 0;
     color: white;
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .button-group {
@@ -62,7 +64,7 @@ const VideoCard = styled.div`
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,6 +114,7 @@ const CategoryContainer = styled.div`
     color: #000000;
     padding: 10px;
     background-color: rgba(250, 248, 248, 0.918);
+    font-size: 26px;
   }
 
   .videos {
